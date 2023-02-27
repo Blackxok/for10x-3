@@ -5,7 +5,7 @@
     --oq: #ffffff;
     --hover: #8d8db8;
     --top_bg: #2B3A55;
-    --border1: linear-gradient(#2B3A55, #321333)
+    --border1: linear-gradient(to left, #2ade51a1, #303ed7a3);
 }
 
 /*-------------------------------------------------- 
@@ -211,6 +211,7 @@ legend {
     position: absolute;
     top: 50px;
     right: 50px;
+    color: red;
 }
 
 .offcanvas-title {
@@ -249,9 +250,9 @@ legend {
     cursor: url(../images/pritsel.svg) 2 2, pointer;
     margin: 15px 0;
     align-items: center;
-   
+
     padding: 10px;
-    border-image-source: linear-gradient(to left, #2ade51a1, #303ed7a3);
+    border-image-source: var(--border1);
 }
 
 .nav_ico img {
