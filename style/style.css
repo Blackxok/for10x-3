@@ -216,6 +216,7 @@ legend {
     top: 50px;
     right: 50px;
     color: red;
+    z-index: 0;
 }
 
 .offcanvas-title {
@@ -290,6 +291,8 @@ legend {
 -------------------------------------------------- */
 .home_bg {
     background: inherit;
+    position: absolute;
+    z-index: -1;
 }
 
 /*------------------- glasss effect -----------------*/
@@ -312,7 +315,7 @@ legend {
     top: 0;
     left: 0;
     pointer-events: none;
-    background: radial-gradient(circle at var(--x) var(--y), transparent 10%, rgba(0, 0, 0, 0.95) 20%);
-    z-index: -1;
+    background: radial-gradient(circle at var(--x) var(--y), rgb(0, 34, 255) 10%, rgba(0, 0, 0, 0.968) 20%);
+    z-index: -2;
 }
 
