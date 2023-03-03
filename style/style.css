@@ -4,7 +4,7 @@
 :root {
     --oq: #ffffff;
     --hover: #8d8db8;
-    --top_bg: #2B3A55;
+    --top_bg: #182d56;
     --border1: linear-gradient(to left, #2ade51a1, #303ed7a3);
 }
 
@@ -209,6 +209,7 @@ legend {
     background: var(--top_bg);
     color: var(--oq);
     user-select: none;
+    cursor: url(../images/pritsel.png) 2 2, pointer;
 }
 
 .ofcanvas_btn {
@@ -233,7 +234,6 @@ legend {
     padding: 0;
     margin: 0;
     opacity: 0.9 !important;
-    cursor: url(../images/pritsel.svg) 2 2, pointer;
 }
 
 .btn-close img {
@@ -253,7 +253,6 @@ legend {
 }
 
 .nav_ico {
-    cursor: url(../images/pritsel.svg) 2 2, pointer;
     margin: 15px 0;
     align-items: center;
 
@@ -318,4 +317,3 @@ legend {
     background: radial-gradient(circle at var(--x) var(--y), rgb(0, 34, 255) 10%, rgba(0, 0, 0, 0.968) 20%);
     z-index: -2;
 }
-
