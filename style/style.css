@@ -317,3 +317,11 @@ legend {
     background: radial-gradient(circle at var(--x) var(--y), rgb(0, 34, 255) 10%, rgba(0, 0, 0, 0.968) 20%);
     z-index: -2;
 }
+
+/* --------------------- light mode effect ---------------*/
+
+/* ---------------------container ------------------------*/
+.menu_1 {
+    width: 250px;
+    height: 250px;
+}
