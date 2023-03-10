@@ -373,7 +373,7 @@ legend {
     font-size: 25px;
     font-weight: bold;
     text-transform: uppercase;
-    background: linear-gradient(to bottom, #797979 0%, #ffffff 100%);
+    background: linear-gradient(to top right, #e4e4e4 50%, #aaaaaa 0%, #ffffff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
