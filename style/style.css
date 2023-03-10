@@ -329,7 +329,7 @@ legend {
 }
 
 .c_menus * {
-    cursor: pointer;
+    user-select: none;
 }
 
 .home_menus {
@@ -352,13 +352,9 @@ legend {
     justify-content: center;
 }
 
-/* .menu_2 {
-    width: 350px;
-    height: 350px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
+.menu_2 {
+    padding: 90px;
+}
 
 .home_menus_2 {
     position: absolute;
@@ -372,6 +368,12 @@ legend {
 }
 
 .m_t {
-    color: red !important;
-    font-size: 50px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(to bottom, #797979 0%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
