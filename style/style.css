@@ -26,6 +26,7 @@
 
 body {
     background-attachment: fixed;
+    overflow: hidden;
 }
 
 :focus,
@@ -321,7 +322,56 @@ legend {
 /* --------------------- light mode effect ---------------*/
 
 /* ---------------------container ------------------------*/
-.menu_1 {
-    width: 250px;
-    height: 250px;
+.h_container {
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.c_menus * {
+    cursor: pointer;
+}
+
+.home_menus {
+    position: absolute;
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 11;
+}
+
+.menu,
+.menu_2 {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .menu_2 {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.home_menus_2 {
+    position: absolute;
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 22;
+}
+
+.m_t {
+    color: red !important;
+    font-size: 50px;
 }
