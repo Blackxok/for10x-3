@@ -373,7 +373,13 @@ legend {
     font-size: 25px;
     font-weight: bold;
     text-transform: uppercase;
-    background: linear-gradient(to top right, #e4e4e4 50%, #aaaaaa 0%, #ffffff 100%);
+    background: linear-gradient(to top right, #ffffff 30%, #484848 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.m_t:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to top right, #e4e4e4 50%, #ffffff 100%);
+    -webkit-background-clip: text;
 }
