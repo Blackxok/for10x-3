@@ -9,4 +9,5 @@ var swiper = new Swiper(".mySwiper", {
         el: ".swiper-pagination",
         clickable: true,
     },
+    simulateTouch: false,
 });

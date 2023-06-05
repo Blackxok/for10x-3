@@ -27,6 +27,7 @@
 body {
     background-attachment: fixed;
     overflow: hidden;
+    font-family: 'JetBrains Mono', monospace;
 }
 
 :focus,
