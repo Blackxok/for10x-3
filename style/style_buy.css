@@ -26,11 +26,9 @@ body {
 
 .swiper-slide {
     text-align: center;
-    font-size: 18px;
-    background: #ffffff68;
+    background: #ffffffcc;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 
 /* ---------------------------------------- */
@@ -42,13 +40,27 @@ body {
 }
 
 .prof_Icon {
-    flex-grow: 1;
-    width: 50px;
-    height: 50px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.prof_Icon i {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.prof_Icon p {
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    user-select: auto !important;
+    object-fit: cover;
 }
 
 .prof_Icon img {
-    margin: 0;
-    padding: 0;
-    max-width: 100%;
+    flex-grow: 2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
