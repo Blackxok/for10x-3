@@ -1,0 +1,69 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-size: 14px;
+    font-family: 'JetBrains Mono', monospace;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.container_buy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    background: #ffffffcc;
+    display: flex;
+    justify-content: center;
+}
+
+/* ---------------------------------------- */
+
+.swiper_box {
+    width: 70%;
+    height: 700px;
+}
+
+.prof_Icon {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.prof_Icon i {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.prof_Icon p {
+    font-size: medium;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.prof_Icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .teg,
+.mail,
+.phone {
+    flex: 0 1 33%;
+} */
