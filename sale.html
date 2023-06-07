@@ -88,7 +88,36 @@
 
 
 
+    <div class='row'>
+        <div class='col-md-6'>
+            <img src='https://booksshop.herokuapp.com/add.jpg' style="border-radius: 30px;" width='100%' />
+        </div>
+        <div class='col-md-6'>
+            <div class='mt-10rem w-75 mx-auto mt-5'>
+                <p class='fs-1 text-light'>Sale</p>
 
+                <form action='/login' method='post'>
+                    <div class='form-floating mb-3'>
+                        <input type='email' class='form-control' name='email' id='floatingInput' placeholder='name@example.com' />
+                        <label for='floatingInput'>Email address</label>
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                        <input type="text" class="form-control" placeholder="Telegram username" aria-label="Username" aria-describedby="basic-addon1">
+                      </div>
+
+                      <div class="mb-3">
+                        <label for="basic-url" class="form-label text-light">Telefon raqam</label>
+                        <div class="input-group">
+                          <span class="input-group-text" id="basic-addon3">+998</span>
+                          <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                        </div>
+                      </div>
+                    <button type='submit' class='btn btn-primary btn-lg mt-3'>Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
 
 
 
