@@ -376,3 +376,14 @@ legend {
     background: linear-gradient(to top right, #e4e4e4 50%, #ffffff 100%);
     /* -webkit-background-clip: text; */
 }
+
+.swiper-wrapper {
+    border: 2px solid #d40b0b;
+    /* margin-bottom: 20px; */
+    width: 100%;
+    height: 100%;
+}
+
+.swiper_box{
+    border: 2px solid #d40b0b;
+}
