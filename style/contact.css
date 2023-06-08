@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
+:root {
+    --rang1: #f40707;
+    --rang2: #8d8db8;
+    --rang3: #182d56;
+    --rang4: #fdd255;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +24,6 @@ textarea {
     width: 100%;
     min-height: 100vh;
     padding: 2rem;
-    background-color: #fafafa;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -27,7 +33,6 @@ textarea {
 .form {
     width: 100%;
     max-width: 820px;
-    background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
     z-index: 1000;
@@ -37,13 +42,13 @@ textarea {
 }
 
 .contact-form {
-    background-color: #1abc9c;
+    /* background-color: #1abc9c; */
     position: relative;
 }
 
 .circle {
     border-radius: 50%;
-    background: linear-gradient(135deg, transparent 20%, #149279);
+    /* background: linear-gradient(135deg, transparent 20%, #149279); */
     position: absolute;
 }
 
@@ -66,7 +71,7 @@ textarea {
     position: absolute;
     width: 26px;
     height: 26px;
-    background-color: #1abc9c;
+    /* background-color: #1abc9c; */
     transform: rotate(45deg);
     top: 50px;
     left: -13px;
@@ -138,7 +143,7 @@ textarea.input {
     background-color: #fff;
     border: 2px solid #fafafa;
     font-size: 0.95rem;
-    color: #1abc9c;
+    color: var(--rang1);
     line-height: 1;
     border-radius: 25px;
     outline: none;
@@ -172,7 +177,7 @@ textarea.input {
     opacity: 0;
     transition: 0.3s;
     height: 5px;
-    background-color: #1abc9c;
+    background-color: var(--rang1);
     top: 50%;
     transform: translateY(-50%);
 }
@@ -204,7 +209,7 @@ textarea.input {
 }
 
 .contact-info .title {
-    color: #1abc9c;
+    color: var(--rang1);
 }
 
 .text {
@@ -242,7 +247,7 @@ textarea.input {
     width: 35px;
     height: 35px;
     border-radius: 5px;
-    background: linear-gradient(45deg, #1abc9c, #149279);
+    background: linear-gradient(45deg, #aa5828, #f52303);
     color: #fff;
     text-align: center;
     line-height: 35px;
@@ -259,11 +264,15 @@ textarea.input {
     position: absolute;
     width: 110px;
     height: 100px;
-    border: 22px solid #1abc9c;
+    /* border: 22px solid #1abc9c; */
     border-radius: 50%;
     bottom: -77px;
     right: 50px;
     opacity: 0.3;
+}
+
+.contact-info p {
+    color: #fff;
 }
 
 .big-circle {
