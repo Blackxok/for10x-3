@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
 :root {
-    --rang1: #f40707;
-    --rang2: #8d8db8;
+    --rang1: #076af4;
+    --rang2: #ffffff;
     --rang3: #182d56;
     --rang4: #fdd255;
 }
@@ -209,8 +209,11 @@ textarea.input {
 }
 
 .contact-info .title {
-    color: var(--rang1);
+    color: var(--rang2);
+    padding: 10px;
 }
+
+
 
 .text {
     color: #333;
@@ -247,7 +250,7 @@ textarea.input {
     width: 35px;
     height: 35px;
     border-radius: 5px;
-    background: linear-gradient(45deg, #aa5828, #f52303);
+    background: linear-gradient(45deg, #285caa, #0354f5);
     color: #fff;
     text-align: center;
     line-height: 35px;
