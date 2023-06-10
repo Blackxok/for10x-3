@@ -3,35 +3,38 @@
 } */
 
 .swiper_watch {
+    position: absolute;
     width: 150%;
-    height: 500px;
+    height: min-content;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 50px 0;
+    /* margin: 0px 0px; */
+    z-index: -1;
 }
 
 .swiper_watch_container {
     border: 3px solid red;
     width: 100%;
-    height: 10vh;
+    height: min-content;
     transform: rotate(90deg);
 }
 
 .swiper_watch_2 {
     position: absolute;
-    width: 150%;
-    height: 500px;
+    width: 100%;
+    height: min-content;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 50px 0;
+    margin: 0 -350px;
+    z-index: -1;
 }
 
 .swiper_watch_container_2 {
     border: 3px solid rgb(4, 255, 0);
     width: 100%;
-    height: 10vh;
+    height: min-content;
     transform: rotate(90deg);
 }
 
@@ -42,7 +45,7 @@
 
 .swiper-slide {
     text-align: center;
-    font-size: 30px;
+    font-size: 250px;
     font-weight: bold;
     background: #fff;
     display: flex;
