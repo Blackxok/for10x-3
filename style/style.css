@@ -357,6 +357,12 @@ legend {
     z-index: 22;
 }
 
+.text-light {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .m_t {
     text-align: center;
     cursor: pointer;

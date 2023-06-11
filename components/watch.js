@@ -1,6 +1,8 @@
 
 // <!-- Initialize Swiper -->
 var swiper = new Swiper('.mySwiper', {
+    direction: "vertical",
+    mousewheel: true,
     spaceBetween: 40,
     grabCursor: true,
     a11y: false,
