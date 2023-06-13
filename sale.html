@@ -10,6 +10,7 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- css link -->
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/sale.css">
     <title>Sale</title>
 </head>
 
@@ -20,7 +21,14 @@
 
         <!---------------------- top --------------------->
         <div class="top_top">
-            <a href="./index.html" class="top_menu us">Home</a>
+            <a class="top_menu us" href="./index.html">Home</a>
+            <a class="top_menu us" href="./download.html">Download</a>
+            <a class="top_menu us" href="./sale.html">Sale</a>
+            <a class="top_menu us" href="./buy.html">Buy</a>
+            <a class="top_menu us" href="./watch.html">Watch</a>
+            <a class="top_menu us" href="./contact.html">contact us</a>
+            <a class="top_menu in" href="./signin.html">sign in</a>
+            <a class="top_menu up" href="./signup.html">sign up</a>
             <div class="top_menu lan"><img class="earth" src="./images/earth.svg"></div>
             <select class="selectpicker" data-width="fit">
                 <option>Eng</option>
@@ -28,9 +36,6 @@
                 <option>Uzb</option>
                 <option>Deu</option>
             </select>
-            <a class="top_menu us">contact us</a>
-            <a class="top_menu in">sign in</a>
-            <a class="top_menu up">sign up</a>
         </div>
         <!---------------------- top ---------------------->
 
@@ -76,66 +81,56 @@
     <!------------------- offcanvas -------------------->
 
     <!------------------SALE SECTION------------------->
-
-    <!------------------SALE SECTION------------------->
-
-
-
-
-
-
-
-
-
-
-    <div class='row'>
-        <div class='col-md-6'>
-            <img src='https://booksshop.herokuapp.com/add.jpg' style="border-radius: 30px;" width='100%' />
-        </div>
-        <div class='col-md-6'>
-            <div class='mt-10rem w-75 mx-auto mt-5'>
-                <p class='fs-1 text-light'>Sale</p>
-
-                <form action='/login' method='post'>
-                    <div class='form-floating mb-3'>
-                        <input type='email' class='form-control' name='email' id='floatingInput' placeholder='name@example.com' />
-                        <label for='floatingInput'>Email address</label>
+    <div class="sale_container">
+        <div class='row'>
+            <div class='col-md-12'>
+                <div class='mt-10rem w-75 mx-auto mt-5'>
+                    <div class="form_title">
+                        <p class='fs-1 text-light'>Sale</p>
+                        <p class='fs-5 text-light'>O'zingiz va accauntingiz haqida formani to'ldiring </p>
                     </div>
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1">@</span>
-                        <input type="text" class="form-control" placeholder="Telegram username" aria-label="Username" aria-describedby="basic-addon1">
-                      </div>
 
-                      <div class="mb-3">
-                        <label for="basic-url" class="form-label text-light">Telefon raqam</label>
-                        <div class="input-group">
-                          <span class="input-group-text" id="basic-addon3">+998</span>
-                          <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                    <form action='/login' method='post'>
+                        <div class='form-floating mb-3'>
+                            <input type='email' class='form-control' name='email' id='floatingInput'
+                                placeholder='name@example.com' />
+                            <label for='floatingInput'>Email address</label>
                         </div>
-                      </div>
-                      <div class="input-group mb-3">
-                        <span class="input-group-text">$</span>
-                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Narxi">
-                      </div>
-                      <div class="form-floating mb-3">
-                        <input type="text" class="form-control" name="image" id="floatingInput" placeholder="Image">
-                        <label for="floatingInput">Image</label>
-                    </div>
-                    <button type='submit' class='btn btn-primary btn-lg mt-3'>Login</button>
-                </form>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input type="text" class="form-control" placeholder="Telegram username"
+                                aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+
+                        <div class="mb-3">
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon3">+998</span>
+                                <input type="text" class="form-control" id="basic-url"
+                                    aria-describedby="basic-addon3 basic-addon4">
+                            </div>
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)"
+                                placeholder="Narxi">
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" name="image" id="floatingInput" placeholder="Image">
+                            <label for="floatingInput">Image</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" name="image" id="floatingInput" placeholder="Image">
+                            <label for="floatingInput">Mashega urvin bosin masalan "your Clan" pb daqanaqa bolishini
+                                bilmimanku men </label>
+                        </div>
+                        <button type='submit' class='btn btn-primary btn-lg mt-3'>Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
 
-
-
-
-
-
-
-
-
-
+    <!------------------SALE SECTION------------------->
 
     <!--------------------------------
                js link

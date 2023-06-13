@@ -140,9 +140,9 @@ textarea.input {
 
 .btn {
     padding: 0.6rem 1.3rem;
-    background-color: #fff;
     border: 2px solid #fafafa;
     font-size: 0.95rem;
+    font-weight: bold;
     color: var(--rang1);
     line-height: 1;
     border-radius: 25px;

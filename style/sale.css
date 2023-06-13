@@ -1,0 +1,37 @@
+:root {
+    --rang1: #076af4;
+    --rang2: #ffffff;
+    --rang3: #182d56;
+    --rang4: #fdd255;
+}
+
+
+
+.sale_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    width: 100% !important;
+    padding: 0.6rem 1.3rem;
+    background: transparent !important;
+    border: 2px solid var(--rang1);
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: var(--rang1) !important;
+    line-height: 1;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0;
+}
+
+.btn:hover {
+    font-weight: bold;
+    background-color: transparent;
+    color: var(--rang2) !important;
+    border: 2px solid var(--rang2) !important;
+}
