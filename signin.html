@@ -79,25 +79,26 @@
         <!------------------- offcanvas -------------------->
     </div>
     <div class="container">
-        <div class="row">
-            <div class="col-md-6" style="margin-top: 150px;">
-                <img src="https://booksshop.herokuapp.com/log.jpg" width="100%">
+        <div class="row registr_row">
+            <div class="col-md-6 rasim">
+                <img src="./images/login.png">
             </div>
-            <div class="col-md-6">
-                <div class="mt-10rem w-75 mx-auto" style="margin-top: 250px;">
-                    <p class="fs-1">Login</p>
+            <div class="col-md-6 forma">
+                <div class="mt-10rem w-75 mx-auto">
+                    <p class="fs-1 title">Signin</p>
                     <form action="/login" method="post">
-                        <div class="form-floating mb-3">
-                            <input type="email" class="form-control" name="email" id="floatingInput"
-                                placeholder="name@example.com">
-                            <label for="floatingInput">Email address</label>
+                        <div class="input-container">
+                            <input type="email" name="email" class="input" />
+                            <label for="">Email</label>
+                            <span>Email</span>
                         </div>
-                        <div class="form-floating">
-                            <input type="password" class="form-control" name="password" id="floatingPassword"
-                                placeholder="Password">
-                            <label for="floatingPassword">Password</label>
+                        <div class="input-container">
+                            <input type="password" name="email" class="input" />
+                            <label for="">Password</label>
+                            <span>Email</span>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-lg mt-3">Login</button>
+                        <div class="submit_help"><a href="#">Fogot your password?</a></div>
+                        <input type="submit" value="Submit" class="btn" />
                     </form>
                 </div>
             </div>
@@ -109,6 +110,7 @@
                js links
     ---------------------------------->
     <script src="./components/main.js"></script>
+    <script src="./components/registr.js"></script>
     <!---------------------------------
               bootstrap link
      ---------------------------------->
