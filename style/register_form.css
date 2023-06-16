@@ -13,13 +13,18 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
 .registr_row {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.forma {}
 
 .title {
     color: #fff;
@@ -27,6 +32,7 @@
     font-size: 1.5rem;
     line-height: 1;
     margin-bottom: 0.7rem;
+    text-align: center;
 }
 
 .input-container {
@@ -147,4 +153,12 @@
 .input-container.focus span:after {
     width: 50%;
     opacity: 1;
+}
+
+/* ----------------------------------------------------------------------------------
+                                   SignUP                                           
+---------------------------------------------------------------------------------- */
+.forma {
+    text-align: center;
+    transform: translateX(100px);
 }
